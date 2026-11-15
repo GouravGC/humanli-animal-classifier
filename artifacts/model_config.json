@@ -1,0 +1,7 @@
+{
+    "architecture": "CustomCNN",
+    "input_channels": 3,
+    "num_classes": 3,
+    "image_size": 224,
+    "parameters": 1206499
+}

@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: humanli-animal-classifier
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeploy: true

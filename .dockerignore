@@ -1,0 +1,9 @@
+.git
+.github
+.pytest_cache
+__pycache__
+*.pyc
+*.zip
+humanli_complete_backup/
+tests/
+.env
